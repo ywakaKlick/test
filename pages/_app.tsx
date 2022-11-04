@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-248504040-1');`}
+        gtag('config', 'UA-248504040-1',{'siteSpeedSampleRate': 100});`}
       </Script>
       <Component {...pageProps} />
       </>
